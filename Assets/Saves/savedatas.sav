@@ -1,0 +1,136 @@
+**Options!**
+sfxVolume=1
+musicVolume=1
+show_arc=False
+hp_bars=True
+showHUD=True
+usingcontroller=False
+resolutionX=640
+resolutionY=480
+windowed=True
+**Save Details**
+time_saved=6/5/2015 @ 9:22
+**Player Details**
+health_max=30
+**Zone 1 Levels Complete Details**
+zone_1_level_1_completed=True
+zone_1_level_1_meats_collected=0
+zone_1_level_1_meats_needed=15
+zone_1_level_2_completed=True
+zone_1_level_2_meats_collected=0
+zone_1_level_2_meats_needed=22
+zone_1_level_3_completed=True
+zone_1_level_3_meats_collected=0
+zone_1_level_3_meats_needed=0
+zone_1_level_4_completed=False
+zone_1_level_4_meats_collected=0
+zone_1_level_4_meats_needed=0
+zone_1_level_5_completed=False
+zone_1_level_5_meats_collected=0
+zone_1_level_5_meats_needed=15
+zone_1_level_6_completed=False
+zone_1_level_6_meats_collected=0
+zone_1_level_6_meats_needed=30
+zone_1_level_7_completed=False
+zone_1_level_7_meats_collected=0
+zone_1_level_7_meats_needed=10
+zone_1_level_8_completed=False
+zone_1_level_8_meats_collected=0
+zone_1_level_8_meats_needed=35
+zone_1_meats_found_TOTAL=0
+zone_1_meats_MAX=37
+zone_1_meats_hauled=0
+**Zone 2 Levels Complete Details**
+zone_2_level_1_completed=False
+zone_2_level_2_completed=False
+zone_2_level_3_completed=False
+zone_2_level_4_completed=False
+zone_2_level_5_completed=False
+zone_2_level_6_completed=False
+zone_2_level_7_completed=False
+zone_2_level_8_completed=False
+**Zone 3 Levels Complete Details**
+zone_3_level_1_completed=False
+zone_3_level_2_completed=False
+zone_3_level_3_completed=False
+zone_3_level_4_completed=False
+zone_3_level_5_completed=False
+zone_3_level_6_completed=False
+zone_3_level_7_completed=False
+zone_3_level_8_completed=False
+**Weapon Unlocks**
+unlocked_Rocks=True
+unlocked_Spear=True
+unlocked_Sword=True
+unlocked_Bow=True
+unlocked_Sling=False
+unlocked_Dinobites=True
+unlocked_Quiver=True
+unlocked_Skateboard=True
+unlocked_Ezbronze=True
+unlocked_Torch=True
+unlocked_Flippers=True
+unlocked_Snorkel=True
+unlocked_Parachute=True
+unlocked_Raptorsuit=True
+**Magic Unlocks**
+magicUnlocked1=True
+magicUnlocked2=True
+magicUnlocked3=True
+magicUnlocked4=True
+magicUnlocked5=True
+magicUnlocked6=True
+magicUnlocked7=True
+magicUnlocked8=True
+magicUnlocked9=True
+magicUnlocked10=True
+magicUnlocked11=True
+magicUnlocked12=True
+magicUnlocked13=True
+magicUnlocked14=True
+magicUnlocked15=False
+magicUnlocked16=False
+**Ammo Unlocks**
+unlocked_SharpArrow=True
+unlocked_PlungerArrow=True
+unlocked_PunchArrow=True
+unlocked_SlingPebbles=True
+unlocked_SlingWaterBalloons=True
+unlocked_SlingUndefinedAmmo=True
+**Play Stats!**
+timesPunched=3
+rocksThrown=0
+spearsThrown=0
+spearsStabbed=0
+arrowsShot=0
+slingshotShot=0
+swordSwung=0
+raptorsKilled=0
+dilosKilled=0
+compysKilled=0
+pachysKilled=0
+brawlerKilled=0
+dartguysKilled=0
+batsKilled=0
+dinobitesEaten=0
+tricksTricked=0
+spraytanUsed=0
+raptorsuitUsed=0
+underwaterTime=0
+hangglideTime=0
+inairTime=0.6408878
+spellsCast=0
+timesDied=0
+levelsBeaten=0
+karateMasterWins=0
+**Loadout Details**
+slot_1=21
+slot_2=21
+slot_3=21
+slot_4=21
+slot_5=21
+slot_6=21
+slot_7=21
+**Map Location Details**
+mmap_location=0
+

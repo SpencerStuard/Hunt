@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 4aa8f72863796a94a8b79fb31c850d25
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rockSpriteSheet_0
+    21300002: rockSpriteSheet_1
+    21300004: rockSpriteSheet_2
+    21300006: rockSpriteSheet_3
+    21300008: rockSpriteSheet_4
+    21300010: rockSpriteSheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rockSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 62
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rockSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 58
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rockSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 50
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rockSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 54
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rockSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 53
+        width: 66
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rockSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 34
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

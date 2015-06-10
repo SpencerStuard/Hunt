@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 18
+  m_Name: Health
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .0700000003, y: .910000026, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c84061318ed5045986774ee559cc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPerHeart: 10
+  currentHealth: 0
+  hudImage: {fileID: 2800000, guid: ae5b7290f2fdb664ab6a4a7296139087, type: 3}
+  hudGUI: {fileID: 13100000, guid: 5b59bca5beecff84680a54ec2e19d144, type: 2}
+  faceImages:
+  - {fileID: 2800000, guid: 93375fcb15dcf8a46b562888d8d18380, type: 3}
+  - {fileID: 2800000, guid: f6477e29d7db07e47a169cc3db8cfd69, type: 3}
+  - {fileID: 2800000, guid: 6d1fd3a8f6da7b648ae65654a12e4df8, type: 3}
+  - {fileID: 2800000, guid: 0dc5c692a399b9143bb86ceb7346533b, type: 3}
+  - {fileID: 2800000, guid: 8910046e2431d834a8482fd14d8789bd, type: 3}
+  - {fileID: 2800000, guid: bf8ca6441ee9b9b4a9c4db598d9c002e, type: 3}
+  - {fileID: 2800000, guid: 1917423aefdb58649b0362e269d90756, type: 3}
+  faceGUI: {fileID: 13100000, guid: db28977ca3d0edd43967203bada49450, type: 2}
+  heartImages:
+  - {fileID: 2800000, guid: 70e7747fc50719e45b4d42f12991b085, type: 3}
+  - {fileID: 2800000, guid: 57bfe7fcbffd7cd4c9b168ef43b15717, type: 3}
+  - {fileID: 2800000, guid: 6623f15bcd47899449555f0e21137f7f, type: 3}
+  heartGUI: {fileID: 13100000, guid: 14dd6695273e842d8baf7e7cbce5f916, type: 2}
+  dead: 0
+  maxHeartsOnRow: 5
+  shielded: 0
+  shieldTime: 0
+  blackOutBG: {fileID: 2800000, guid: 13ca74592a78a944dae9597c08b41a1d, type: 3}
+  loading: 0
+  ghost: {fileID: 100000, guid: 76a5f05042112374eb18366725f028b4, type: 2}
+  beam: {fileID: 100000, guid: ae48286f8f53d7b428b23393ea7e9a25, type: 2}
+  buttonStyle:
+    m_Name: Restart Button
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: be9ed1f2dc3b26746a6688f912dc449a, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 34b9bc5a5857c3a4aad3603ebfec193b, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  mapStyle:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b2f7e91d104b2f44eb919c890dce71fd, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 75f395f3d0a9705438feb087b5ae9deb, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  startScript: {fileID: 0}
+  deathMeatHam: {fileID: 100000, guid: 1fb5a439b6ff4e048ad20de7c1a463fe, type: 2}
+  deathMeatBacon: {fileID: 100000, guid: 8f9ca021b510938409b5c2c5066aac2c, type: 2}
+  deathMeatChop: {fileID: 100000, guid: e2d66df43ff15264fad5aad2ca33f44a, type: 2}
+  deathMeatRib: {fileID: 100000, guid: 187c602457ce6d743a94e92efca01baf, type: 2}
+  deathMeatSausage: {fileID: 100000, guid: 5dae0c14d694d6b4f97c48b3339a8094, type: 2}
+  deathMeatSteak1: {fileID: 100000, guid: f01cce27ad5aa9445819fa15318b69b0, type: 2}
+  deathMeatSteak2: {fileID: 100000, guid: 57aa36cb77ff2cd49a09588c38b037b1, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

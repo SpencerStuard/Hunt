@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerWeapon
+  - PlayerWeaponSpear
+  - Spear
+  - Enemy
+  - Land
+  - PlayerMagic
+  - Heart
+  - MovingPlatform
+  - EnemyMain
+  - Rope
+  - EnemyLimb
+  - PlayerWeaponSword
+  - NPCKarate
+  - EverBlastBag
+  - PlayerPet
+  - IceCube
+  - Skateboard
+  - Unarmed
+  - Water
+  - Projectile
+  - SkateSpeedBoost
+  - SkateSpeedBoostDown
+  - SkateSpeedBoostUp
+  - SkateSlope
+  - EnemyHead
+  - Puerta
+  - EnemyLeg
+  - PlayerBody
+  - EnemyProjectile
+  - PushableCrate
+  - AirBubbleCollider
+  - Wall
+  - Blocker
+  - RunOver
+  - RunOver2
+  - PropEnemy
+  - MapNode
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Projectile
+  - Land
+  - Player
+  - Melee
+  - Enemy
+  - Spear
+  - Cover
+  - Rope
+  - CrossHair
+  - IgnoreLayer
+  - StuckInEnemy
+  - 
+  - PASSABLEPROJECTILES
+  - 
+  - PLAYERINVULN
+  - PlayerPet
+  - Midgrounds
+  - Backgrounds
+  - EnemyProjectile
+  - PassableLand
+  - SlopeLayer
+  - WaterCollider
+  - Karate
+  - ENEMYLIMB
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG 5
+    uniqueID: 2756359353
+    locked: 0
+  - name: BG 4
+    uniqueID: 3495497377
+    locked: 0
+  - name: BG 3
+    uniqueID: 2674550017
+    locked: 0
+  - name: BG 2
+    uniqueID: 2525110627
+    locked: 0
+  - name: BG 1
+    uniqueID: 1539108587
+    locked: 0
+  - name: Enemy
+    uniqueID: 1674029863
+    locked: 0
+  - name: Pet
+    uniqueID: 2513471489
+    locked: 0
+  - name: Player
+    uniqueID: 2454047887
+    locked: 0
+  - name: Items
+    uniqueID: 3612611057
+    locked: 0
+  - name: Effects
+    uniqueID: 68785053
+    locked: 0

@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 4e0dea056def5874c944e8c053ab2ce8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fisherman_portrait_0
+    21300002: fisherman_portrait_1
+    21300004: fisherman_portrait_2
+    21300006: fisherman_portrait_3
+    21300008: fisherman_portrait_4
+    21300010: fisherman_portrait_5
+    21300012: fisherman_portrait_6
+    21300014: fisherman_portrait_7
+    21300016: fisherman_portrait_8
+    21300018: fisherman_portrait_9
+    21300020: fisherman_portrait_10
+    21300022: fisherman_portrait_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fisherman_portrait_0
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 999
+        width: 250
+        height: 295
+      alignment: 9
+      pivot: {x: .5, y: .129999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_1
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 999
+        width: 250
+        height: 295
+      alignment: 9
+      pivot: {x: .5, y: .129999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_2
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 999
+        width: 250
+        height: 295
+      alignment: 9
+      pivot: {x: .5, y: .129999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_3
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 999
+        width: 250
+        height: 295
+      alignment: 9
+      pivot: {x: .5, y: .129999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 450
+        width: 110
+        height: 178
+      alignment: 9
+      pivot: {x: .5, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 278
+        width: 214
+        height: 262
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 450
+        width: 110
+        height: 180
+      alignment: 9
+      pivot: {x: .5, y: .860000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_7
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 368
+        width: 366
+        height: 289
+      alignment: 9
+      pivot: {x: .5, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 310
+        width: 98
+        height: 82
+      alignment: 9
+      pivot: {x: .5, y: .769999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_9
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 312
+        width: 97
+        height: 81
+      alignment: 9
+      pivot: {x: .5, y: .769999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 207
+        height: 215
+      alignment: 9
+      pivot: {x: .5, y: .870000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_portrait_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 56
+        width: 207
+        height: 215
+      alignment: 9
+      pivot: {x: .5, y: .870000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

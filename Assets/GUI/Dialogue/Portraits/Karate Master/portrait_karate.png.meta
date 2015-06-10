@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 482aaf68074a69043aa0fa7addab3aab
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: portrait_karate_0
+    21300002: portrait_karate_1
+    21300004: portrait_karate_2
+    21300006: portrait_karate_3
+    21300008: portrait_karate_4
+    21300010: portrait_karate_5
+    21300012: portrait_karate_6
+    21300014: portrait_karate_7
+    21300016: portrait_karate_8
+    21300018: portrait_karate_9
+    21300020: portrait_karate_10
+    21300022: portrait_karate_11
+    21300024: portrait_karate_12
+    21300026: portrait_karate_13
+    21300028: portrait_karate_14
+    21300030: portrait_karate_15
+    21300032: portrait_karate_16
+    21300034: portrait_karate_17
+    21300036: portrait_karate_18
+    21300038: portrait_karate_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: portrait_karate_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1022
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1022
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1022
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_3
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1022
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_4
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1023
+        width: 281
+        height: 307
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_5
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1022
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 998
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 998
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_8
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 998
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_9
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 998
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 704
+        width: 272
+        height: 283
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_11
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 802
+        width: 141
+        height: 192
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_12
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 803
+        width: 141
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_13
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 674
+        width: 280
+        height: 306
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_14
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 672
+        width: 281
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_15
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 672
+        width: 280
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 697
+        width: 106
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 697
+        width: 106
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 448
+        width: 239
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: portrait_karate_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 448
+        width: 239
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 5dd26a7e541d9454e817af6192350f27
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fisherman_0
+    21300002: fisherman_1
+    21300004: fisherman_2
+    21300006: fisherman_3
+    21300008: fisherman_4
+    21300010: fisherman_5
+    21300012: fisherman_6
+    21300014: fisherman_7
+    21300016: fisherman_8
+    21300018: fisherman_9
+    21300020: fisherman_10
+    21300022: fisherman_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fisherman_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 199
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 199
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 199
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 89
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 90
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_7
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 73
+        width: 73
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 62
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fisherman_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 11
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

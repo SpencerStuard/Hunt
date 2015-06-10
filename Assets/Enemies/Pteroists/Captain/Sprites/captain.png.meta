@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: b83b61b91423f4243bb460b8a1c0274e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: captain_0
+    21300002: captain_1
+    21300004: captain_2
+    21300006: captain_3
+    21300008: captain_4
+    21300010: captain_5
+    21300012: captain_6
+    21300014: captain_7
+    21300016: captain_8
+    21300018: captain_9
+    21300020: captain_10
+    21300022: captain_11
+    21300024: captain_12
+    21300026: captain_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: captain_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 200
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 200
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 199
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 200
+        width: 55
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 199
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_6
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 126
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 90
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 55
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 90
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 62
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 62
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 11
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: captain_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 11
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

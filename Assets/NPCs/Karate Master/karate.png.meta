@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: fec41b37fad0dbc47b49a8e8c8b79af6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: karate_0
+    21300002: karate_1
+    21300004: karate_2
+    21300006: karate_3
+    21300008: karate_4
+    21300010: karate_5
+    21300012: karate_6
+    21300014: karate_7
+    21300016: karate_8
+    21300018: karate_9
+    21300020: karate_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: karate_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 204
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 140
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 204
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 160
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 204
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 204
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 160
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 139
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 139
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 89
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: karate_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 89
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

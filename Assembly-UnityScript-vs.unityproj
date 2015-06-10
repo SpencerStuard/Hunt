@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EBC4E49E-44B0-BABB-A565-8F6CFF327793}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;UNITY_64;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CameraStopFollowing.js" />
+     <Compile Include="Assets\Effects\Air Bubbles\AirBubblesScript.js" />
+     <Compile Include="Assets\Effects\Blood\Effects\Blood Follow Script.js" />
+     <Compile Include="Assets\Effects\Blood\bloodRotateWithParent.js" />
+     <Compile Include="Assets\Effects\Blood\bloodRotateWithParent2.js" />
+     <Compile Include="Assets\Effects\DestroyParticleOnCompletion.js" />
+     <Compile Include="Assets\Effects\DestroyParticleParentOnCompletion.js" />
+     <Compile Include="Assets\Effects\DestroyParticleWhenTimeUp.js" />
+     <Compile Include="Assets\Effects\EffectInFront.js" />
+     <Compile Include="Assets\Effects\EffectsBG2.js" />
+     <Compile Include="Assets\Effects\EffectsBehindPlatform.js" />
+     <Compile Include="Assets\Effects\EffectsInFront.js" />
+     <Compile Include="Assets\Effects\Stunned\SpawnStunStars.js" />
+     <Compile Include="Assets\Effects\Venom\DiloVenomHitScript.js" />
+     <Compile Include="Assets\Effects\Venom\VenomExploScript.js" />
+     <Compile Include="Assets\Effects\Venom\VenomScript.js" />
+     <Compile Include="Assets\Enemies\Dinos\Compy\Scripts\CompyController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Dilo\Scripts\DiloController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Dilo\Scripts\PropDiloController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Dilo\Scripts\SpitAtPlayer.js" />
+     <Compile Include="Assets\Enemies\Dinos\Pachycephalosaurus\Scripts\PachyController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Pachycephalosaurus\Scripts\PachyHeadHit.js" />
+     <Compile Include="Assets\Enemies\Dinos\Puertasaurus\Effects\PuertaStompDamageScript.js" />
+     <Compile Include="Assets\Enemies\Dinos\Puertasaurus\Scripts\ImpassibleColliders.js" />
+     <Compile Include="Assets\Enemies\Dinos\Puertasaurus\Scripts\PuertaController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Puertasaurus\Scripts\PuertaStomp.js" />
+     <Compile Include="Assets\Enemies\Dinos\Raptor\Meat Truck Raptor\MeatTruckRaptorController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Raptor\Scripts\AnimateRaptor.js" />
+     <Compile Include="Assets\Enemies\Dinos\Raptor\Scripts\PropRaptorController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Raptor\Scripts\RaptorController.js" />
+     <Compile Include="Assets\Enemies\Dinos\Tyrannosaurus Rex\Scripts\NudgeCloud.js" />
+     <Compile Include="Assets\Enemies\Dinos\Tyrannosaurus Rex\Scripts\TRexBiteDamage.js" />
+     <Compile Include="Assets\Enemies\Dinos\Tyrannosaurus Rex\Scripts\TRexController.js" />
+     <Compile Include="Assets\Enemies\Misc\Bat\BatControllerScript.js" />
+     <Compile Include="Assets\Enemies\Misc\Piranha\PiranhaControllerScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Blower\Scripts\BlowerController.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Blower\Sprites\BlowerPipeScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Brawler\Scripts\BrawlerController.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Captain\Phase 1\CaptainControllerScript Phase 1.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Captain\Phase 1\EscapePteroScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Captain\Scripts\CaptainControllerScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Engineer\Scripts\EngineerControllerScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\Meat Burglar\Meat_BurglarController.js" />
+     <Compile Include="Assets\Enemies\Pteroists\PteroDroppers\Blower Dropper\PteroDropperScript.js" />
+     <Compile Include="Assets\Enemies\Pteroists\PteroDroppers\Turret Dropper\TurretDropperScript.js" />
+     <Compile Include="Assets\Enemies\Scripts\ApplyDamageToParent.js" />
+     <Compile Include="Assets\Enemies\Scripts\EnemyAlertTriggerScript.js" />
+     <Compile Include="Assets\Enemies\Scripts\EnemyBlinkOnDamage.js" />
+     <Compile Include="Assets\Enemies\Scripts\SpriteLayerChanger.js" />
+     <Compile Include="Assets\Enemies\_Enemy Spawners\SpawnerScript.js" />
+     <Compile Include="Assets\GUI\Dialogue\Portraits\PortraitScript.js" />
+     <Compile Include="Assets\GUI\GUICrosshair.js" />
+     <Compile Include="Assets\GUI\HUD\HUDScript.js" />
+     <Compile Include="Assets\GUI\Items\DinoBites\DinoBitesScript.js" />
+     <Compile Include="Assets\GUI\Items\EZBronze\EZBronzeScript.js" />
+     <Compile Include="Assets\GUI\Items\Flippers\FlipperScript.js" />
+     <Compile Include="Assets\GUI\Items\HangGlider\HangGliderScript.js" />
+     <Compile Include="Assets\GUI\Items\ParachutePants\ParachuteScript.js" />
+     <Compile Include="Assets\GUI\Items\ParachutePants\StripNakedScript.js" />
+     <Compile Include="Assets\GUI\Items\Quiver\ChangeQuiverSprite.js" />
+     <Compile Include="Assets\GUI\Items\Quiver\QuiverScript.js" />
+     <Compile Include="Assets\GUI\Items\Raptor Suit\RaptorSuitController.js" />
+     <Compile Include="Assets\GUI\Items\Raptor Suit\RaptorSuitSpawner.js" />
+     <Compile Include="Assets\GUI\Items\Skateboard\Scripts\SkateboardScript.js" />
+     <Compile Include="Assets\GUI\Items\Skateboard\Scripts\SkateboardSpawnerScript.js" />
+     <Compile Include="Assets\GUI\Items\Snorkel\SnorkelScript.js" />
+     <Compile Include="Assets\GUI\Items\Torch\TorchScript.js" />
+     <Compile Include="Assets\GUI\Meatscore\ScalePlatformScript.js" />
+     <Compile Include="Assets\GUI\Pause Options Etc\GreyOutMenuScript.js" />
+     <Compile Include="Assets\GUI\Pause Options Etc\Options.js" />
+     <Compile Include="Assets\GUI\Pause Options Etc\StartMenuScript.js" />
+     <Compile Include="Assets\GUI\Pause Options Etc\WeaponGUIScript.js" />
+     <Compile Include="Assets\GUI\SaveLoadGUI.js" />
+     <Compile Include="Assets\GUI\ScreenSize.js" />
+     <Compile Include="Assets\GUI\WeaponLoadoutGUI.js" />
+     <Compile Include="Assets\Game Core\Camera\CameraFollow.js" />
+     <Compile Include="Assets\Game Core\Camera\Scripts\CameraShake.js" />
+     <Compile Include="Assets\Game Core\Debugging\ShowFPS.js" />
+     <Compile Include="Assets\Game Core\Dialogue\Scripts\DialogueScript.js" />
+     <Compile Include="Assets\Game Core\Dialogue\Scripts\TalkTextureScript.js" />
+     <Compile Include="Assets\Game Core\SaveandLoad\Scripts\ItemsToSave.js" />
+     <Compile Include="Assets\Game Core\Scripts\ControllerInUse.js" />
+     <Compile Include="Assets\Game Core\Scripts\Enemies\NearbyEnemies.js" />
+     <Compile Include="Assets\Game Core\Scripts\EnemiesKilled.js" />
+     <Compile Include="Assets\Game Core\Scripts\FollowThis.js" />
+     <Compile Include="Assets\Game Core\Scripts\FollowThisLeftHand.js" />
+     <Compile Include="Assets\Game Core\Scripts\FollowThisRightHand.js" />
+     <Compile Include="Assets\Game Core\Scripts\GameController.js" />
+     <Compile Include="Assets\Game Core\Scripts\Level\MakePlayerMoveWith.js" />
+     <Compile Include="Assets\Game Core\Scripts\Level\TakeCover.js" />
+     <Compile Include="Assets\Game Core\Scripts\Level\TakeCoverCrouch.js" />
+     <Compile Include="Assets\Game Core\Scripts\RotateWithParent.js" />
+     <Compile Include="Assets\Game Core\Scripts\Stats.js" />
+     <Compile Include="Assets\Game Core\Scripts\Weapons\WeaponLoadout.js" />
+     <Compile Include="Assets\Game Core\Scripts\Weapons\WeaponSelect.js" />
+     <Compile Include="Assets\Game Core\Shadows\Scripts\ShadowKeepLevel.js" />
+     <Compile Include="Assets\Game Core\Shadows\Scripts\ShadowTestScript.js" />
+     <Compile Include="Assets\Game Core\Trophies\Scripts\MiscUnlockScript.js" />
+     <Compile Include="Assets\Game Core\Trophies\Scripts\TrophyUnlockScript.js" />
+     <Compile Include="Assets\IntroMenuScript.js" />
+     <Compile Include="Assets\Level\Background Parallax\ObjectParallaxTest.js" />
+     <Compile Include="Assets\Level\Background Parallax\OtherParallaxTest.js" />
+     <Compile Include="Assets\Level\Built Levels\Dojo\Scripts\EverBlastScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Dojo\Scripts\LightTorchScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\CleanupProps.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\DestroyBloodParticle.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\DontPushOnJump.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\EatPlayerMovement.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\EggScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\FadeOutEnding.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\LaunchPlayerKinematic.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\ObstacleScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\PlayerInPit.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\PropSpawnerScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\SkateboardPickupScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\SortParticles.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Egg Heist\Scripts\StartRampCutscene.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Jungle Level 1\Level1Script.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Captain&apos;s Jeep\CaptainJeepController.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Captain&apos;s Jeep\JeepSpawnerScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\KMDScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\MeatTruckScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\Thrown\Scripts\SodaCupHit.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\Thrown\Scripts\SpinObject.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\Thrown\Scripts\ThrownBananaScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\Truck\Thrown\magazines\MagazineScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\TruckDropperScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\TruckGrassScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\TruckGroundScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Jungle\Truck Defense\TruckTreesScript.js" />
+     <Compile Include="Assets\Level\Built Levels\LevelScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Start Screen\LoadButtonScript.js" />
+     <Compile Include="Assets\Level\Built Levels\Village1\DoorScript.js" />
+     <Compile Include="Assets\Level\End of a Level\End Meats\EndMeatScript.js" />
+     <Compile Include="Assets\Level\End of a Level\EndMeatTruckScript.js" />
+     <Compile Include="Assets\Level\End of a Level\ExitLevelScript.js" />
+     <Compile Include="Assets\Level\End of a Level\Pig\EndPigScript.js" />
+     <Compile Include="Assets\Level\End of a Level\Pig\MeatScript.js" />
+     <Compile Include="Assets\Level\End of a Level\Scale Meats\ScaleMeatScript.js" />
+     <Compile Include="Assets\Level\Factory\Conveyor Belt\ConveyorBeltScript.js" />
+     <Compile Include="Assets\Level\Factory\Conveyor Belt\Sprites\ConveyorBeltSpriteScript.js" />
+     <Compile Include="Assets\Level\Factory\Conveyor Belt\Sprites\ConveyorWheelSpinScript.js" />
+     <Compile Include="Assets\Level\Factory\Glue Box Turret\GlueBoxCannonTurretScript.js" />
+     <Compile Include="Assets\Level\Hazards\Boxes\DartBoxScript.js" />
+     <Compile Include="Assets\Level\Hazards\Boxes\ExplodingBoxScript.js" />
+     <Compile Include="Assets\Level\Hazards\Crumbling Bridge\CrumblingBridgeScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Lava Rocks\LavaRockScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Lava Rocks\LavaRockSpawnerScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Pooping Bird\PoopHitScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Pooping Bird\PoopingBirdScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Pooping Bird\PoopingBirdSpawnerScript.js" />
+     <Compile Include="Assets\Level\Hazards\Falling Objects\Stalactites\StalactiteScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Exploding Mushroom\ExplodingMushroomScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Exploding Mushroom\MushSplosionHitScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Fire Spitting\FireFlowerScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Fire Spitting\PlantFireballHit.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Fire Spitting\RotateTowardsTarget.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Flame Throwing\FlameFlowerScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Flame Throwing\PlantFlameHit.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Spike Shooting\SpikeHitScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Spike Shooting\SpikePlantScript.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Venom Dripping\PlantVenomHit.js" />
+     <Compile Include="Assets\Level\Hazards\Flowers\Venom Dripping\VenomFlowerScript.js" />
+     <Compile Include="Assets\Level\Hazards\Pits\Death Pits\DeathPitScript.js" />
+     <Compile Include="Assets\Level\Hazards\Traps\GrassTrapScript.js" />
+     <Compile Include="Assets\Level\Level Edges\LevelEdgeCameraScript.js" />
+     <Compile Include="Assets\Level\Weather\WeatherFollowPlayerX.js" />
+     <Compile Include="Assets\Level\_Assets\Cave Assets\BoulderScript.js" />
+     <Compile Include="Assets\Level\_Assets\Scripts\BackgroundParallax.js" />
+     <Compile Include="Assets\Level\_Assets\Scripts\MovingPlatformHorizontal.js" />
+     <Compile Include="Assets\Level\_Assets\Scripts\MovingPlatformVertical.js" />
+     <Compile Include="Assets\Level\_Assets\Scripts\OneWayPlatform.js" />
+     <Compile Include="Assets\Level\_Assets\Scripts\PushableBoxes.js" />
+     <Compile Include="Assets\Level\_Assets\Snow Assets\Scripts\SnowballScript.js" />
+     <Compile Include="Assets\Level\_Assets\Water\WaterScript.js" />
+     <Compile Include="Assets\Level\_Assets\Water\WaterSnorkelScript.js" />
+     <Compile Include="Assets\Level\_Assets\Water\WaterTopScript.js" />
+     <Compile Include="Assets\Map\Scripts\BackToMap.js" />
+     <Compile Include="Assets\Map\Scripts\EnterLevel.js" />
+     <Compile Include="Assets\Map\Scripts\EnterZone.js" />
+     <Compile Include="Assets\Map\Scripts\EnterZoneDemo.js" />
+     <Compile Include="Assets\Map\Scripts\ImLevelNumber.js" />
+     <Compile Include="Assets\Map\Scripts\MapNode.js" />
+     <Compile Include="Assets\Map\Scripts\MoveToZones.js" />
+     <Compile Include="Assets\Map\Scripts\NodeManager.js" />
+     <Compile Include="Assets\Map\Scripts\SelectedLevel.js" />
+     <Compile Include="Assets\Map\Scripts\UnlockZone.js" />
+     <Compile Include="Assets\NPCs\Fisherman\FishermanController.js" />
+     <Compile Include="Assets\NPCs\Karate Master\FakeKarateMasterScript.js" />
+     <Compile Include="Assets\NPCs\Karate Master\KarateMasterController.js" />
+     <Compile Include="Assets\NPCs\Karate Master\KarateMasterMeleeColliderScript.js" />
+     <Compile Include="Assets\Player\Ghost\GhostBeamScript.js" />
+     <Compile Include="Assets\Player\Health\Scripts\Health.js" />
+     <Compile Include="Assets\Player\Health\Scripts\ScaleScript.js" />
+     <Compile Include="Assets\Player\Magic\Buffs\BloodLust\BloodLustScript.js" />
+     <Compile Include="Assets\Player\Magic\Buffs\Haste\HasteScript.js" />
+     <Compile Include="Assets\Player\Magic\Buffs\Heal\HealScript.js" />
+     <Compile Include="Assets\Player\Magic\Buffs\Shield\ShieldScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\Fireball\FireballExplosionSplashDamageScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\Fireball\FireballHit.js" />
+     <Compile Include="Assets\Player\Magic\Damage\Fireball\FireballScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\IceBlast\IceBlastScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\IceBlast\IceCube\BlockerIceCubeScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\IceBlast\IceCube\IceCubeScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\IceBlast\IceHit.js" />
+     <Compile Include="Assets\Player\Magic\Damage\Lightning\LightningHit.js" />
+     <Compile Include="Assets\Player\Magic\Damage\Lightning\LightningScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\RockStorm\Scripts\FollowPlayer.js" />
+     <Compile Include="Assets\Player\Magic\Damage\RockStorm\Scripts\RockStormRocks.js" />
+     <Compile Include="Assets\Player\Magic\Damage\RockStorm\Scripts\RockStormScript.js" />
+     <Compile Include="Assets\Player\Magic\Damage\RockStorm\Scripts\RockStormSpin.js" />
+     <Compile Include="Assets\Player\Magic\Misc\Blank\BlankScript.js" />
+     <Compile Include="Assets\Player\Magic\Misc\Fear\FearHit.js" />
+     <Compile Include="Assets\Player\Magic\Misc\Fear\FearScript.js" />
+     <Compile Include="Assets\Player\Magic\Misc\Stun\StunHit.js" />
+     <Compile Include="Assets\Player\Magic\Misc\Stun\StunScript.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Baby T-Rex\EggMagic.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Baby T-Rex\TRexMagicScript.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Baby T-Rex\TRexSummonController.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Karate\KarateMagicScript.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Karate\KarateMasterSummon Controller.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Karate\KarateUnarmed.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Karate\SprayCanMagicScript.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Ptero\PteroMagicScript.js" />
+     <Compile Include="Assets\Player\Magic\Pets\Ptero\Scripts\PteroPetScript.js" />
+     <Compile Include="Assets\Player\Scripts\BlinkOnDamage.js" />
+     <Compile Include="Assets\Player\Scripts\ChangeFaceAiming.js" />
+     <Compile Include="Assets\Player\Scripts\ChangeLegScuba.js" />
+     <Compile Include="Assets\Player\Scripts\CharController.js" />
+     <Compile Include="Assets\Player\Scripts\FaceCrosshair.js" />
+     <Compile Include="Assets\Player\Scripts\MagicScript.js" />
+     <Compile Include="Assets\Player\Scripts\Player3DCollider.js" />
+     <Compile Include="Assets\Player\Sprites\Winter Garb\EarMuffScript.js" />
+     <Compile Include="Assets\Powerups\Berries\Scripts\berry.js" />
+     <Compile Include="Assets\Powerups\Meat\DroppedMeatScript.js" />
+     <Compile Include="Assets\RealTimeScript.js" />
+     <Compile Include="Assets\TerainTriggerTestScript.js" />
+     <Compile Include="Assets\WaypointFollowScript.js" />
+     <Compile Include="Assets\Weapons\Bow\AmmoTypes\Plunger\Scripts\PlungerArrowScript.js" />
+     <Compile Include="Assets\Weapons\Bow\AmmoTypes\Plunger\Scripts\PlungerRope.js" />
+     <Compile Include="Assets\Weapons\Bow\AmmoTypes\Plunger\Scripts\RopeLayerScript.js" />
+     <Compile Include="Assets\Weapons\Bow\AmmoTypes\Punch\PunchArrowScript.js" />
+     <Compile Include="Assets\Weapons\Bow\AmmoTypes\Sharp\ArrowHit.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\AdjustBowString.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\ArrowDamageScript.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\BowHideArmsGrabbingOn.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\BowScript.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\HideRealArms.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\ReloadBow.js" />
+     <Compile Include="Assets\Weapons\Bow\Scripts\ShowArrowOnBow.js" />
+     <Compile Include="Assets\Weapons\Crosshair\Scripts\FollowMouse.js" />
+     <Compile Include="Assets\Weapons\HideIfIdle.js" />
+     <Compile Include="Assets\Weapons\Rocks\Scripts\NewRockWeapon.js" />
+     <Compile Include="Assets\Weapons\Rocks\Scripts\ReloadRock.js" />
+     <Compile Include="Assets\Weapons\Rocks\Scripts\SetRockVelocity.js" />
+     <Compile Include="Assets\Weapons\Rocks\Scripts\ShowWeaponRock.js" />
+     <Compile Include="Assets\Weapons\Slingshot\AmmoTypes\Pebbles\Scripts\SlingRockHit.js" />
+     <Compile Include="Assets\Weapons\Slingshot\AmmoTypes\Water Balloons\BoxOfBalloonsScript.js" />
+     <Compile Include="Assets\Weapons\Slingshot\AmmoTypes\Water Balloons\Scripts\ShowBalloon.js" />
+     <Compile Include="Assets\Weapons\Slingshot\AmmoTypes\Water Balloons\Scripts\StrangeExplosion.js" />
+     <Compile Include="Assets\Weapons\Slingshot\AmmoTypes\Water Balloons\Scripts\balloonAmmo.js" />
+     <Compile Include="Assets\Weapons\Slingshot\Scripts\AdjustSlingString.js" />
+     <Compile Include="Assets\Weapons\Slingshot\Scripts\HideSlingArm.js" />
+     <Compile Include="Assets\Weapons\Slingshot\Scripts\SlingArmRotate.js" />
+     <Compile Include="Assets\Weapons\Slingshot\Scripts\SlingScript.js" />
+     <Compile Include="Assets\Weapons\Spear\Scripts\NewSpear.js" />
+     <Compile Include="Assets\Weapons\Spear\Scripts\ShowWeaponSpear.js" />
+     <Compile Include="Assets\Weapons\Spear\Scripts\SpearColliderScript.js" />
+     <Compile Include="Assets\Weapons\Spear\Scripts\SpearFollowHand.js" />
+     <Compile Include="Assets\Weapons\Spear\Scripts\SpearScript.js" />
+     <Compile Include="Assets\Weapons\Sword\Scripts\SwordWeapon.js" />
+     <Compile Include="Assets\Weapons\Trajectory\Scripts\TrajectoryPredictorJS.js" />
+     <Compile Include="Assets\Weapons\Unarmed\Scripts\DisableCollidersWhenIdle.js" />
+     <Compile Include="Assets\Weapons\Unarmed\Scripts\KickColliderFollow.js" />
+     <Compile Include="Assets\Weapons\Unarmed\Scripts\Unarmed.js" />
+     <Compile Include="Assets\Weapons\Unarmed\Scripts\UnarmedDamage.js" />
+     <Compile Include="Assets\Weapons\Unarmed\Scripts\kickCollider.js" />
+     <Compile Include="Assets\WoundFlipScript.js" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAlphaBlend_Alpha8.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito24.fnt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+AddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+AddSoft VColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Hidden.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Water2D\Shaders\SimpleWater.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add VColor.shader" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\demobmfont\test.fnt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Fabric\Readme.txt" />
+     <None Include="Assets\Water2D\Shaders\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Font\OldSansBlack\OldSansBlack.fnt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Water2D\Shaders\Water2D_PC.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito16.fnt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Audio\SDH_Event_List.txt" />
+     <None Include="Assets\TK2DROOT\tk2dUI_demo\Assets\Dark\Fonts\Nunito32.fnt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX4 Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/spencerstuard/Documents/Games2015/SDHProject 2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Fabric.AudioSpline">
+ <HintPath>/Users/spencerstuard/Documents/Games2015/SDHProject 2/Assets/Fabric/Fabric.AudioSpline.dll</HintPath>
+ </Reference>
+ <Reference Include="Fabric.Core">
+ <HintPath>/Users/spencerstuard/Documents/Games2015/SDHProject 2/Assets/Fabric/Fabric.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Fabric.LoudnessMeter">
+ <HintPath>/Users/spencerstuard/Documents/Games2015/SDHProject 2/Assets/Fabric/Fabric.LoudnessMeter.dll</HintPath>
+ </Reference>
+ <Reference Include="Fabric.ModularSynth">
+ <HintPath>/Users/spencerstuard/Documents/Games2015/SDHProject 2/Assets/Fabric/Fabric.ModularSynth.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{FCB4D1DD-4168-DF1A-625E-202D2BBE8227}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

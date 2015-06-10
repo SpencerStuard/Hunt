@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  - 212: {fileID: 21200000}
+  m_Layer: 11
+  m_Name: SpearWeapon
+  m_TagString: PlayerWeaponSpear
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.62497926, y: .428781509, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7780ddc1aa58ac40852b3777e0cb6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: 9
+  timeBetweenPoints: .0500000007
+  maxNumberOfPoints: 25
+  textureObject: {fileID: 100000, guid: 50de3349ca4ed0f43947a60eb06f23f7, type: 2}
+  textureObjectDivisor: 1
+  zDepth: 20
+  gravity: {x: 0, y: 9.81000042}
+  layersToHit:
+    serializedVersion: 2
+    m_Bits: 512
+  target: {fileID: 400000}
+  arcHolder: {fileID: 0}
+  crosshair: {fileID: 0}
+  hand: {fileID: 0}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34dc389b4c7da84dba0bc27bc3ecead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadout: {fileID: 0}
+  throwSounds:
+  - {fileID: 8300000, guid: 4b21b218bd9786b4bb33f2bbedbcde17, type: 3}
+  swingSounds: []
+  poleSounds:
+  - {fileID: 8300000, guid: 06592c4786d616748ba97e1c5fdcfdbf, type: 3}
+  hitSounds:
+  - {fileID: 8300000, guid: 9a45f4052fe7a5d449cfb1f1c4ef2bd6, type: 3}
+  - {fileID: 8300000, guid: 5a63dd5e27e02864ebec87b4be60ca6a, type: 3}
+  - {fileID: 8300000, guid: 958006aecd8f11f49adfdfec237daecb, type: 3}
+  - {fileID: 8300000, guid: 63154bb0f27a2bd4582167101bb016bc, type: 3}
+  - {fileID: 8300000, guid: 9327cb57101f48c418ba63ad816e6748, type: 3}
+  weaponName: 
+  force: 0
+  spearWeapon: {fileID: 0}
+  lefthand: {fileID: 0}
+  spear: {fileID: 100000, guid: b02d925552f1c7d4daa246c169ee0fc3, type: 2}
+  spearL: {fileID: 100000, guid: f56e65c5cac0b0d439d3654fedc15862, type: 2}
+  spearTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  runBeforeVault: 0
+  anim: {fileID: 0}
+  typeSelected: 0
+  col: {fileID: 0}
+  passive: 0
+  meleed: 0
+--- !u!212 &21200000
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 2454047887
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7313e25829ba9b54b8725298af361582, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

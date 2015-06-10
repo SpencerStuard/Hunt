@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: e2d6d2afa1c2c0046a3ee8ccc554a987
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: raptor_blue_0
+    21300002: raptor_blue_1
+    21300004: raptor_blue_2
+    21300006: raptor_blue_3
+    21300008: raptor_blue_4
+    21300010: raptor_blue_5
+    21300012: raptor_blue_6
+    21300014: raptor_blue_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: raptor_blue_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 198
+        width: 98
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 140
+        width: 88
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 162
+        width: 116
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 134
+        width: 85
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 40
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 44
+        width: 77
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 55
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: raptor_blue_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 55
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

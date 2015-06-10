@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: b9abc1e122d52c94288b2eebbe8859e9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trex-skeleton_0
+    21300002: trex-skeleton_1
+    21300004: trex-skeleton_2
+    21300006: trex-skeleton_3
+    21300008: trex-skeleton_4
+    21300010: trex-skeleton_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: trex-skeleton_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 723
+        width: 317
+        height: 175
+      alignment: 9
+      pivot: {x: .93993324, y: .458921939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex-skeleton_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 624
+        width: 443
+        height: 258
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex-skeleton_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 531
+        width: 277
+        height: 171
+      alignment: 9
+      pivot: {x: .858132482, y: .869939446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex-skeleton_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 195
+        width: 208
+        height: 391
+      alignment: 9
+      pivot: {x: .610593677, y: .941243887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex-skeleton_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 341
+        width: 116
+        height: 156
+      alignment: 9
+      pivot: {x: .785065114, y: .887078106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex-skeleton_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 691
+        height: 170
+      alignment: 9
+      pivot: {x: .0609856471, y: .728343725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

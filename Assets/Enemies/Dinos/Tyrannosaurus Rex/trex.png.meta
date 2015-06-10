@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: a72dd4800fbcbd74aa015688bca9b80e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trex_0
+    21300002: trex_1
+    21300004: trex_2
+    21300006: trex_3
+    21300008: trex_4
+    21300010: trex_5
+    21300012: trex_6
+    21300014: trex_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: trex_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 766
+        width: 318
+        height: 176
+      alignment: 9
+      pivot: {x: .925932586, y: .481229603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_1
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 666
+        width: 455
+        height: 277
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 567
+        width: 277
+        height: 171
+      alignment: 9
+      pivot: {x: .851824701, y: .891212881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 241
+        width: 228
+        height: 397
+      alignment: 9
+      pivot: {x: .568824112, y: .955593646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 241
+        width: 228
+        height: 397
+      alignment: 9
+      pivot: {x: .579691291, y: .955593586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 388
+        width: 128
+        height: 159
+      alignment: 9
+      pivot: {x: .796805501, y: .915543854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 388
+        width: 128
+        height: 159
+      alignment: 9
+      pivot: {x: .796805382, y: .936321139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trex_7
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 778
+        height: 204
+      alignment: 9
+      pivot: {x: .0254826974, y: .479757458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
